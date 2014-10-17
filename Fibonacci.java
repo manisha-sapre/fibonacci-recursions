@@ -29,4 +29,16 @@ public class Fibonacci {
 				count++;
 			}
 		}
+		//if count is same as array length that shows all digits are same as fibonacci series
+		if(count == a.length)
+		{
+			System.out.println("Given array forms fibonacci series");
+		}
+		else
+		{
+			System.out.println("Given array does not form fibonacci series");
 		
+		}
+	}
+
+}
